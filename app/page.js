@@ -1,5 +1,5 @@
 export default function Home() {
   return (
-    <div>Academic Research Website</div>
+    <h1>Academic Research Website</h1>
       );
 }
