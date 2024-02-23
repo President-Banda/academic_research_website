@@ -2,3 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.layout {
+    width: 1366px;
+    height: 768px;
+
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
