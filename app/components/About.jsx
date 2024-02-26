@@ -35,7 +35,7 @@ const About = () => {
 
         <div className="grid col-span-3 rounded-lg p-2 font-nunito">
             <div>
-                <h1 className='sm:text-lg md:text-2xl font-medium m-2'>
+                <h1 className='sm:text-xl md:text-2xl font-medium m-2'>
                 About Me: <span className='font-normal'>Cloud Architect by Day, Gamer by Night</span>
                 </h1>
 
