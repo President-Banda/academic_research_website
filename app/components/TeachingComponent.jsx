@@ -3,11 +3,11 @@ import React from 'react'
 const TeachingComponent = () => {
   return (
     <div className="grid grid-flow-row grid-cols-5">
-        <div className='col-start-2 justify-center mb-5'>
+        <div className='col-start-2 col-span-4 justify-center mb-5'>
             <h1 className='text-base md:text-xl font-medium'>
                 Teaching
             </h1>
-            <span className='text-slate-700'>Read my teaching statement</span>
+            <span className='text-slate-700 text-sm md:text-base'>Read my teaching statement</span>
         </div>
 
         <div className=" row-start-2 col-start-2 col-span-3 bg-[#FBFFFB] rounded-lg justify-center items-center">

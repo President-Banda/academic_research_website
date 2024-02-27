@@ -9,6 +9,7 @@ import Beaker from '../icons/beaker';
 import Folder from '../icons/folder';
 import Misc from '../icons/misc';
 import Home from '../icons/home';
+import PersonIcon from '../icons/person_icon';
 
 const Header = () => {
   return (
@@ -78,7 +79,10 @@ const Header = () => {
                     <div className='rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5 divide-y-2 divide-gray-50'>
                         <div className='px-5 pb-5 pt-6'>
                             <div className='flex items-center justify-between'>
-                                <h1 className='font-bold'>Sy</h1>
+                                <div className="flex flex-row">
+                                    <PersonIcon />
+                                    <h1 className='font-bold ml-1'>Sy</h1>
+                                </div>
                                 <div className='-mr-2'>
                                     <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 
                                     text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2
