@@ -78,7 +78,7 @@ const Header = () => {
                     <div className='rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5 divide-y-2 divide-gray-50'>
                         <div className='px-5 pb-5 pt-6'>
                             <div className='flex items-center justify-between'>
-                                <h1 className='font-bold'>Seo</h1>
+                                <h1 className='font-bold'>Sy</h1>
                                 <div className='-mr-2'>
                                     <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 
                                     text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2
@@ -103,7 +103,7 @@ const Header = () => {
                                     </Link>
 
                                     <Link className='flex flex-row focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2'
-                                    href="/"
+                                    href="/research"
                                     >
                                         <span className='w-6 h-6 mr-2 transition'>
                                             <AcademicCap />
@@ -112,7 +112,7 @@ const Header = () => {
                                     </Link>
                                     
                                     <Link className='flex flex-row focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2'
-                                    href="/"
+                                    href="/teaching"
                                     >
                                         <span className='w-6 h-6 mr-2 transition'>
                                             <Beaker />
@@ -121,7 +121,7 @@ const Header = () => {
                                     </Link>
                                     
                                     <Link className='flex flex-row focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2'
-                                    href="/"    
+                                    href="/cv"    
                                     >
                                         <span className='w-6 h-6 mr-2 transition'>
                                             <Folder />
@@ -130,7 +130,7 @@ const Header = () => {
                                     </Link>
                                     
                                     <Link className='flex flex-row focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2'
-                                    href="/"    
+                                    href="/misc"    
                                     >
                                         <span className='w-6 h-6 mr-2 transition'>
                                             <Misc />

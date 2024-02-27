@@ -1,13 +1,13 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Container from "./components/Container";
-import About from "./components/About";
+import AboutComponent from "./components/AboutComponent";
 
 export default function Home() {
   return (
     <Container>
       <Header />
-      <About />
+      <AboutComponent />
       <Footer />
     </Container>
   );

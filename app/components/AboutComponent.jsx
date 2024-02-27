@@ -8,7 +8,7 @@ import MailIcon from '../icons/mail';
 import TickIcon from '../icons/tick_icon';
 import Misc from '../icons/misc';
 
-const About = () => {
+const AboutComponent = () => {
   return (
     <div className="sm:grid-flow-row md:grid md:grid-cols-5">
         <div className="grid justify-center items-center bg-[#FBFFFB] rounded-lg p-2 md:h-32">
@@ -27,15 +27,15 @@ const About = () => {
                 Senior Cloud Engineer, Gamer
             </span>
 
-            <span className='sm:grid flex flex-row font-nunito font-normal text-blue-400 mt-5'>
+            <div className='justify-center md:justify-start flex font-nunito font-normal text-blue-400 mt-5'>
                 <MailIcon />    
-                <Link href="mailto:ibenyxkg@duck.com">Mail</Link>
-            </span>
+                <Link href="mailto:ibenyxkg@duck.com" className='ml-2'>Mail</Link>
+            </div>
         </div>
 
         <div className="grid col-span-3 rounded-lg p-2 font-nunito">
             <div>
-                <h1 className='sm:text-xl md:text-2xl font-medium m-2'>
+                <h1 className='text-xl md:text-2xl font-medium m-2'>
                 About Me: <span className='font-normal'>Cloud Architect by Day, Gamer by Night</span>
                 </h1>
 
@@ -137,4 +137,4 @@ const About = () => {
   )
 }
 
-export default About
+export default AboutComponent
