@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { Popover, Transition } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
 import { Fragment } from 'react';
+import styles from '../styles/styles.module.css';
 import AcademicCap from '../icons/academic_cap';
 import Beaker from '../icons/beaker';
 import Folder from '../icons/folder';
@@ -20,7 +21,7 @@ const Header = () => {
         <div className="grow">
             <div className='hidden sm:flex items-center justify-start gap-2 md:gap-8 '>
 
-                <Link className='flex flex-row  transition duration-100
+                <Link className='flex flex-row transition-all ease-in-out duration-[0.2s] 
                 hover:border-b-2 hover:border-blue-500 hover:mb-2 hover:transition hover:p-4' 
                 href="/research">
                     <span className='w-6 h-6 mr-2 transition'>
@@ -29,7 +30,7 @@ const Header = () => {
                     Research
                 </Link>
 
-                <Link className='flex flex-row transition 
+                <Link className='flex flex-row transition-all ease-in-out duration-[0.2s]
                 hover:border-b-2 hover:border-blue-500 hover:mb-2 hover:transition hover:p-4'
                 href="/teaching">
                     <span className='w-6 h-6 mr-2 transition'>
@@ -38,7 +39,7 @@ const Header = () => {
                     Teaching
                 </Link>
 
-                <Link className='flex flex-row transition
+                <Link className='flex flex-row transition-all ease-in-out duration-[0.2s]
                 hover:border-b-2 hover:border-blue-500 hover:mb-2 hover:transition hover:p-4' 
                 href="/cv">
                     <span className='w-6 h-6 mr-2 transition'>
@@ -47,7 +48,7 @@ const Header = () => {
                     CV
                 </Link>
 
-                <Link className='flex flex-row transition
+                <Link className='flex flex-row transition-all ease-in-out duration-[0.2s]
                 hover:border-b-2 hover:border-blue-500 hover:mb-2 hover:transition hover:p-4' 
                 href="/misc">
                     <span className='w-6 h-6 mr-2 transition'>
