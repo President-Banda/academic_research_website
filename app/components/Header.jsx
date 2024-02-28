@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <Popover className={"container mx-auto flex items-center border-b-2 border-b-slate-400 px-5 py-2 h-24 mb-10    "}>
         <Link href="/">
-            <h1 className={"font-bold text-2xl font-nunito md:mr-32"}>Seongyoon Kim</h1>
+            <h1 className={"font-bold text-2xl font-nunito md:mr-32 transition-all hover:scale-125 hover:text-blue-500"}>Seongyoon Kim</h1>
         </Link>
         <div className="grow">
             <div className='hidden sm:flex items-center justify-start gap-2 md:gap-8 '>
