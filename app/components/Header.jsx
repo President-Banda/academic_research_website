@@ -14,7 +14,7 @@ import PersonIcon from '../icons/person_icon';
 
 const Header = () => {
   return (
-    <Popover className={"container mx-auto flex items-center border-b-2 border-b-slate-400 px-5 py-2 h-24 mb-10    "}>
+    <Popover className={"container mx-auto flex items-center border-b-2 border-b-slate-400 px-5 py-2 h-24 mb-10"}>
         <Link href="/">
             <h1 className={"font-bold text-2xl font-nunito md:mr-32 transition-all hover:scale-125 hover:text-blue-500"}>Seongyoon Kim</h1>
         </Link>
@@ -98,50 +98,50 @@ const Header = () => {
                             </div>
                             <div className='mt-6'>
                                 <nav className='grid gap-y-8'>
-                                    <Link className='flex flex-row focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2'
+                                    <Popover.Button as={Link} className='flex flex-row focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2'
                                     href="/"
                                     >
                                         <span className='w-6 h-6 mr-2 transition'>
                                             <Home />
                                         </span>
                                         Home
-                                    </Link>
+                                    </Popover.Button>
 
-                                    <Link className='flex flex-row focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2'
+                                    <Popover.Button as={Link} className='flex flex-row focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2'
                                     href="/research"
                                     >
                                         <span className='w-6 h-6 mr-2 transition'>
                                             <AcademicCap />
                                         </span>
                                         Research
-                                    </Link>
+                                    </Popover.Button>
                                     
-                                    <Link className='flex flex-row focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2'
+                                    <Popover.Button as={Link} className='flex flex-row focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2'
                                     href="/teaching"
                                     >
                                         <span className='w-6 h-6 mr-2 transition'>
                                             <Beaker />
                                         </span>
                                         Teaching
-                                    </Link>
+                                    </Popover.Button>
                                     
-                                    <Link className='flex flex-row focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2'
+                                    <Popover.Button as={Link} className='flex flex-row focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2'
                                     href="/cv"    
                                     >
                                         <span className='w-6 h-6 mr-2 transition'>
                                             <Folder />
                                         </span>
                                         CV
-                                    </Link>
+                                    </Popover.Button>
                                     
-                                    <Link className='flex flex-row focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2'
+                                    <Popover.Button as={Link} className='flex flex-row focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2'
                                     href="/misc"    
                                     >
                                         <span className='w-6 h-6 mr-2 transition'>
                                             <Misc />
                                         </span>
                                         Misc
-                                    </Link>
+                                    </Popover.Button>
 
                                 </nav>
                             </div>
